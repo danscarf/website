@@ -1,4 +1,4 @@
-FROM nginx:alpine
-EXPOSE 81
+FROM bitnami/nginx:latest
+
 COPY . /usr/share/nginx/html
 
